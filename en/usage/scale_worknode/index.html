@@ -10,10 +10,10 @@
       
       
       
-        <link rel="canonical" href="https://kubean-io.github.io/kubean/en/usage/scale-worknode/">
+        <link rel="canonical" href="https://kubean-io.github.io/kubean/en/usage/scale_worknode/">
       
       
-        <link rel="prev" href="../sshkey_deploy_cluster/">
+        <link rel="prev" href="../install_without_root/">
       
       
         <link rel="next" href="../upgrade/">
@@ -325,7 +325,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../helm-install-kubean/" class="md-nav__link">
+      <a href="../helm_install_kubean/" class="md-nav__link">
         Installing kubean Helm application
       </a>
     </li>
@@ -339,7 +339,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../all-in-one-install/" class="md-nav__link">
+      <a href="../all_in_one_install/" class="md-nav__link">
         Minimal Deployment
       </a>
     </li>
@@ -353,7 +353,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../mirror-install/" class="md-nav__link">
+      <a href="../mirror_install/" class="md-nav__link">
         Deploying a Cluster using Accelerated Mode
       </a>
     </li>
@@ -511,6 +511,20 @@
     <li class="md-nav__item">
       <a href="../sshkey_deploy_cluster/" class="md-nav__link">
         Deploy Kubernetes clusters with SSH
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../install_without_root/" class="md-nav__link">
+        以非 root 用户部署集群
       </a>
     </li>
   
@@ -772,6 +786,20 @@
           Releases
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../releases/v0.6.6/" class="md-nav__link">
+        V0.6.6
+      </a>
+    </li>
+  
+
+            
           
             
               
@@ -1230,7 +1258,7 @@
 </details>
 
 <p>By observing the scaling configuration template in the <code>scale</code> file, it can be seen that scaling the cluster's worker nodes only requires executing two configuration files: <code>HostsConfCM.yml</code> and <code>ClusterOperation.yml</code>. You will need to replace the parameters such as the information of the new node with your actual parameters.</p>
-<p><a href="../all-in-one-install/">Using the example of a single-node cluster deployed in all-in-one mode</a> let's demonstrate how to scale the cluster's worker nodes.</p>
+<p><a href="./all-in-one-install.md">Using the example of a single-node cluster deployed in all-in-one mode</a> let's demonstrate how to scale the cluster's worker nodes.</p>
 <blockquote>
 <p>Note: Before scaling the cluster, you must have completed the deployment of a set of cluster using kubean.</p>
 </blockquote>
@@ -1603,7 +1631,7 @@ To learn about the progress of the scaling task, you can view the logs of the po
       <nav class="md-footer__inner md-grid" aria-label="页脚" >
         
           
-          <a href="../sshkey_deploy_cluster/" class="md-footer__link md-footer__link--prev" aria-label="上一页: Deploy Kubernetes clusters with SSH" rel="prev">
+          <a href="../install_without_root/" class="md-footer__link md-footer__link--prev" aria-label="上一页: 以非 root 用户部署集群" rel="prev">
             <div class="md-footer__button md-icon">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
             </div>
@@ -1612,7 +1640,7 @@ To learn about the progress of the scaling task, you can view the logs of the po
                 上一页
               </span>
               <div class="md-ellipsis">
-                Deploy Kubernetes clusters with SSH
+                以非 root 用户部署集群
               </div>
             </div>
           </a>
